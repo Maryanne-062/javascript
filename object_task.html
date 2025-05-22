@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        my_object = [23, 'Jane', 560, ['Lesson', 'Maths', { 'currency': 'KES' }], 987, 76, 'John']
+        // diplay KES
+        console.log(my_object[3][2].currency)
+
+        // display 560
+        console.log(my_object[2])
+
+        // display maths
+        console.log(my_object[3][1])
+
+        // change John to Jane
+        my_object.splice(6, 1, 'Jane')
+        console.log(my_object)
+        //  In the object with the key currency, add another key “amount” with value 90
+        //  my_object.splice([3][2],1,0,''amount':'2000'')
+        //  console.log(my_object)
+
+        //  Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
+        numbers = 987
+        console.log(numbers.reverse())
+
+        //  Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
+
+
+
+    </script>
+</body>
+
+</html>

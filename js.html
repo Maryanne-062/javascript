@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [1,2,3,4,5,'John',false,[6,7,[8,20,['Jane','Joe',true]]],11];
+        console.log(arr);
+        console.log(arr[7][2][2][2]);
+
+        // updating elements in an array
+        let array =[1,2,'John Doe']
+        array[2]='John Doe'
+
+        // determine the size of an array
+        let size = array.length
+        console.log('array size',size)
+
+        // add elements at the end of an array
+        array.push(12,13,14,false,'Glory')
+        console.log('pushed array',array)
+
+        // add elements at the start of an array
+        array.unshift('JS','python')
+        console.log('unshifted array',array)
+
+        // remove elements at the end of an array
+        array.pop()
+        console.log('shifted array',array)
+
+        // remove elements at the start of an array
+        array.shift()
+        console.log('shifted array',array)
+
+        //adding elements to an array at a specified index
+        array.splice([2])
+        console.log('spliced array',array)
+
+        // changes the order of elements in an array
+        array.reverse()
+        console.log(array)
+
+        // checks if value exists in an array
+        array.includes('python')
+        console.log(array)
+
+        // to delete
+        // delete array
+        // console.log(array)
+
+        // to check the last occurence of a repeated element
+        // .lastindexof
+
+        // .join joins arrays
+
+        // .concat joins two arrays
+        let arr1 = [1,2,3,4]
+        let arr2 = [5,6,7,8]
+        let arr3 = arr1.concat(arr2)
+        console.log(arr3)
+
+        // splice - removing elements
+        let names = ['Jane','John','Mark']
+        names.splice(1,2)
+        console.log(names)
+
+        // splice - add elements
+        names.splice(1,0,'Jack','Joy')
+        console.log(names)
+
+        // splice-replacing
+        names.splice(1,2,'Jack','Joy')
+        console.log(names)
+
+
+
+
+    </script>
+</body>
+</html>
